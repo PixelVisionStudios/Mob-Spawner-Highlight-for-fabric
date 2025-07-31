@@ -10,6 +10,7 @@ Client-side Minecraft mod for **Fabric 1.21.1** that visually highlights **mob s
 - Highlights mob spawners with a `spawnDelay` value **not equal to `2`** (tells you if there was a player within 12 blocks of a spawner)
 - Client-side only does **not** require server installation
 - Uses Fabric
+- You need some level of technical knowledge for this mod, as I haven't added anything extra to help with the user experience. Any adjustments are made directly in the code; nothing too difficult. However, if this is not something you're used to, I would recommend looking into a more polished mod. 
 
 
 ---
@@ -17,7 +18,7 @@ Client-side Minecraft mod for **Fabric 1.21.1** that visually highlights **mob s
 ## Installation
 
 1. Install [Fabric Loader](https://fabricmc.net/use/) and [Fabric API](https://modrinth.com/mod/fabric-api) for Minecraft 1.21.1.
-2. Download and compile into a .jar
+2. Download and compile into a .jar 
 3. Place the .jar in your Minecraft mods folder:
 
 
@@ -38,6 +39,7 @@ This internal value is 2 when idle or reset, but starts counting up to a value o
 - The mod uses a **Mixin accessor** to retrieve the private `spawnDelay` field from `MobSpawnerLogic`.
 - The highlight is rendered using Fabric’s `WorldRenderEvents` on the client.
 - You can customise the colour or behaviour by editing the source code (I was too lazy to make a UI).
+  
 
 ---
 
