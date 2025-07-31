@@ -1,9 +1,7 @@
 # Mob-Spawner-Highlight-for-Fabric-1.21.1
 
-Identifies if a player has been near a mob spawner by looking at the spawnDelay
 
-
-A lightweight client-side Minecraft mod for **Fabric 1.21.1** that visually highlights **mob spawners** whose internal value (`spawnDelay`) is not at the default resting state (`2`). Great for debugging, map-making, or identifying tampered spawners in custom maps or modpacks.
+Client-side Minecraft mod for **Fabric 1.21.1** that visually highlights **mob spawners** whose internal value (`spawnDelay`) is not at the default resting state (`2`). Used for identifying if a player has been within 12 blocks of a spawner or for regular debugging.
 
 ---
 
